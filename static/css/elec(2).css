@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+body {
+background-color: #f8f8f8;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    /* border: 2px solid red; */
+    height: 10vh;
+    background-color: #f8f8f8;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90px;
+    height: 45px;
+    background-color:black;
+    border-radius:45px ;
+    margin-right: 10px;
+}
+
+.login a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nvbr {
+    position: fixed;
+  top: 0;
+  width: 100vw;
+    border: 2px solid black;
+    /* border-radius: 79px; */
+    display: flex;
+    /* overflow: hidden; */
+    background-color: #efefef;
+height: 79px;
+align-items: center;
+justify-content: center;
+}
+
+/* .image {
+    border: 2px solid blue;
+    width: 79px;
+    border-radius: 100%;
+} */
+.title{
+    /* border: 2px solid red; */
+font-size: larger;
+    margin-left: 34px;
+    text-align: center;
+    width: 12%;
+    font-family: 'Rubik Moonrocks', cursive;
+
+}
+#light{
+    text-align:left;
+}
+#elec{
+    text-align: right;
+}
+#navitems {
+    display: flex;
+    justify-content: center;
+
+     align-items: center;
+  /*  border: 2px solid blueviolet; */
+    margin: auto;
+    /* margin-top:20px ; */
+}
+
+.item {
+    /* border: 2px solid black; */
+    margin: 8px;
+    padding: 10px;
+}
+
+.item a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+
+}
+.main{
+   /* height: 100vh; */
+   margin-top:84px;
+   /* border: 2px solid red;  */
+   display: grid;
+   grid-column: auto;
+}
+
+.accs{
+    border: 2px solid black;
+    height: 185px;
+    border-radius: 20px;
+    margin: 5px;
+}
+#myform{ padding: 10px;
+/* display: block; */
+border: 2px solid black;
+border-radius: 20px;
+width: 60vh;
+margin: auto;
+margin-top: 30vh;
+/* height: 50vh; */
+display: flex;
+justify-content: center;
+/* align-items: center; */
+flex-direction: column;
+
+}
+.myinput{
+    margin: 10px  0px;
+    margin: auto;
+border-radius: 10px;
+height: 30px;
+width: 90%;
+
+
+}
+.label{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor: pointer;
+
+}
+
+.submit{
+height: 20px;
+width: 20%;
+border-radius: 20px;
+margin: auto;
+margin-top: 20px;
+
+
+}

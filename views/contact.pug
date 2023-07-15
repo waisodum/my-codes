@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    link(rel='stylesheet', href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css")
+    style
+        include ../static/css/elec(2).css
+    script 
+        include ../static/js/pt.js 
+
+
+        
+</head>
+<body>
+<nav class="nvbr">
+        <div class="title">
+            <div id="light">MoonLight</div>
+            <div id="elec"> Electronics</div>
+        </div>
+        <div id="navitems">
+            <div class="item"> <a href="\">Home</a> </div>
+            <div class="item"> <a href="\accs">accesories</a> </div>
+            <div class="item"> <a href="\contact">Contact us</a> </div>
+        </div>
+        <div class="login">
+            <a href="\login"> LOGIN</a>
+</div></nav>
+
+<form action="/submit" method="post" id="myform">
+<label for="name" class="label">Name</label>
+
+<input type="text" name="name" class="myinput" id="name" >
+
+<label for="email" class="label">email</label>
+
+<input type="email" name="email" class="myinput" id="email">
+
+<label for="phone" class="label">phone</label>
+
+<input type="phone" name="phone" class="myinput" id="phone">
+
+<label for="concern" class="label">concern</label>
+
+<input type="text" name="concern" class="myinput" id="concern">
+
+<button type="submit" class="submit"></button>
+
+</form>
+
+<a href="/data">click to add data</a>
+
+
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>phone</th>
+      <th>concern</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+
+
+
+
+</body>
+</html>

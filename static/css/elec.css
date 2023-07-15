@@ -1,0 +1,134 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+body {
+background-color: #f8f8f8;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    /* border: 2px solid red; */
+    height: 10vh;
+    background-color: #f8f8f8;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90px;
+    height: 45px;
+    background-color:black;
+    border-radius:45px ;
+    margin-right: 10px;
+}
+
+.login a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nvbr {
+
+    border: 2px solid black;
+    /* border-radius: 79px; */
+    display: flex;
+    /* overflow: hidden; */
+    background-color: #efefef;
+height: 79px;
+width: 100vw;
+align-items: center;
+justify-content: center;
+}
+
+/* .image {
+    border: 2px solid blue;
+    width: 79px;
+    border-radius: 100%;
+} */
+.title{
+    /* border: 2px solid red; */
+font-size: larger;
+    margin-left: 34px;
+    text-align: center;
+    width: 12%;
+    font-family: 'Rubik Moonrocks', cursive;
+
+}
+#light{
+    text-align:left;
+}
+#elec{
+    text-align: right;
+}
+#navitems {
+    display: flex;
+    justify-content: center;
+
+     align-items: center;
+  /*  border: 2px solid blueviolet; */
+    margin: auto;
+    /* margin-top:20px ; */
+}
+
+.item {
+    /* border: 2px solid black; */
+    margin: 8px;
+    padding: 10px;
+}
+
+.item a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+
+}
+
+ .nvbr::before {
+
+    content: "";
+    background: url(../pics/mobile.webp) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.89;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    margin-right:60%;
+    margin-top: calc(10vh + 30%)}
+
+.description {
+    margin-top: 39px;
+/* border: 2px solid red; */
+    display: flex;
+    margin-bottom: 180px;
+    margin-top: 140px;
+}
+.description p {
+width: 60%;
+margin: auto;
+margin-left: 48%;
+}
+#why{
+/* width: 34px; */
+margin-left: 34px;
+}
+
+section h1 {
+
+    text-align: center;
+}
+
+.services {
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 8px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.done { box-sizing: border-box;
+    padding: 34px;
+border: 2px solid black;
+border-radius: 20px;
+text-align: center;
+}
