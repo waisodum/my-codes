@@ -187,7 +187,9 @@ animation-fill-mode: backwards;
     display: flex;
 
 }
-.btn{border: #1adb80;
+.btn{
+ cursor:pointer;
+ border: #1adb80;
      display: flex;
 justify-content: center;   
  align-items: center;
