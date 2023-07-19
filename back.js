@@ -46,17 +46,7 @@ mydata.save()
 .catch(()=>{res.send('data was not saved')})
 })
 
-app.get('/data', (req, res) => {
-    Contact.find({}, (err, result) => {
-      if (err) {
-        console.error('Error retrieving form data', err);
-        return res.status(500).send('Internal Server Error');
-      }
-  
-      res.json(result);
-    });
-  });
-  
+
 
 
 
