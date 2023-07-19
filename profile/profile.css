@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+    background-color: #030208;
+    color: aliceblue;
+
+}
+
+#name {
+    margin-left: 100px;
+    text-align: left;
+}
+
+/* #sir{
+text-align: right;
+} */
+#viditems {
+    /* border: 2PX SOLID red; */
+    display: flex;
+    flex-direction: row;
+}
+
+#video {
+    height: 330px;
+}
+
+#resume {
+    color: aliceblue;
+    font-size: 13vh;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 100vw;
+    margin-right: auto;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#description {
+    color: aliceblue;
+    font-size: 4vh;
+    text-align: center;
+    /* border: 2px solid red; */
+    
+    margin-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.eduskills {
+    /* position: absolute; */
+    height: 50vh;
+    /* width: 100vw; */
+    /* border: 2px solid white; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#edu {
+    
+    border-radius: 30px;
+    
+    border: 2px solid white;
+    width: 47vw;
+    height: 47vh;
+    margin: 1vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 50px; */
+}
+
+.item1 {
+    margin-top: -10px;
+    padding: 34px;
+    grid-area: myarea;
+    font-size: 343%;
+    /* font-family: 'Cinzel', serif; */
+    
+}
+
+#skill {
+    display: grid;
+    grid-template-areas: ' myarea myarea myarea';
+    column-gap: 10px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    border: 2px solid white;
+    width: 47vw;
+    height: 47vh;
+    text-align: center;
+}
+
+.scclde {
+    height: 50px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-size: 139%;
+
+margin-top :15px;
+}
+
+.scclde :nth-child(1) {
+    margin-right: 45px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.htcsjs {
+    height: 80px;
+    border-radius: 10px;
+    
+}
+@media (max-width:880px) {
+body{
+    height:140vh ;
+}
+
+    #viditems {
+        /* border: 2PX SOLID red; */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .eduskills{
+        flex-direction: column;
+    }
+
+
+/* #skill{
+
+} */
+
+
+.eduskills{
+    height: 100vh;
+}
+#edu{
+    width: 100vw;
+
+  /* overflow:auto; */
+}
+
+
+/* .sccclde{
+
+} */
+
+#skill{
+    width: 100vw;
+}
+}

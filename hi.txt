@@ -1,1 +1,4 @@
-tjyrrr
+welcome to repository here's a guide to my repository
+1) assigments: this folder consists the assignment 
+2)profile : this folder consists my profile page 
+3)  static,views,back.js: these files together consists of a mini project 
